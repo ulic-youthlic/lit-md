@@ -1,0 +1,12 @@
+[package]
+name = "lit-md"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+markup = "0.15.0"
+pulldown-cmark = { version = "0.10.0", features = ["simd"] }
+rocket = "0.5.0"
+syntect = "5.2.0"
